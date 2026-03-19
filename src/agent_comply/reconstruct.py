@@ -138,7 +138,7 @@ class DecisionReconstructor:
                         output_index[key],
                         ev.event_id,
                         EdgeType.DATA_FLOW,
-                        f"data_flow",
+                        "data_flow",
                     )
 
             # Explicit parent link

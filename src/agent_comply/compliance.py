@@ -13,13 +13,13 @@ against those controls and produces a structured compliance report.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from enum import Enum
 from typing import Any
 
 from pydantic import BaseModel, Field
 
-from agent_comply.ledger import EventLedger, LedgerEvent
+from agent_comply.ledger import EventLedger
 
 
 # ── Enums & models ─────────────────────────────────────────────────────

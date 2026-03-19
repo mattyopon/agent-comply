@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import json
-import sys
 from pathlib import Path
 from typing import Optional
 
@@ -11,10 +9,8 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from agent_comply.anomaly import AnomalyDetector
-from agent_comply.compliance import ComplianceMapper, Framework
+from agent_comply.compliance import Framework
 from agent_comply.ledger import EventLedger
-from agent_comply.reconstruct import DecisionReconstructor
 from agent_comply.reporter import ReportGenerator
 
 app = typer.Typer(

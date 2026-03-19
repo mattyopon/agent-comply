@@ -9,7 +9,7 @@ from agent_comply.reconstruct import DecisionReconstructor, EdgeType
 def _make_ledger() -> EventLedger:
     """Build a small ledger simulating an agent session."""
     ledger = EventLedger()
-    ev0 = ledger.append({
+    ledger.append({
         "event_type": "function_call",
         "function_name": "plan_research",
         "session_id": "S1",
@@ -17,7 +17,7 @@ def _make_ledger() -> EventLedger:
         "inputs": {"query": "climate data"},
         "output": "plan-object",
     })
-    ev1 = ledger.append({
+    ledger.append({
         "event_type": "tool_call",
         "function_name": "web_search",
         "session_id": "S1",
@@ -25,7 +25,7 @@ def _make_ledger() -> EventLedger:
         "inputs": {"url": "https://example.com"},
         "output": "search-results",
     })
-    ev2 = ledger.append({
+    ledger.append({
         "event_type": "function_call",
         "function_name": "summarise",
         "session_id": "S1",
@@ -33,7 +33,7 @@ def _make_ledger() -> EventLedger:
         "inputs": {"data": "search-results"},
         "output": "summary-text",
     })
-    ev3 = ledger.append({
+    ledger.append({
         "event_type": "function_call",
         "function_name": "final_answer",
         "session_id": "S1",

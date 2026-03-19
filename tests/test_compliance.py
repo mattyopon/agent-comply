@@ -1,6 +1,5 @@
 """Tests for regulatory compliance mapping."""
 
-import pytest
 
 from agent_comply.compliance import (
     ComplianceMapper,

@@ -1,8 +1,6 @@
 """Tests for the tamper-proof ledger — the most critical component."""
 
-import copy
 import json
-import tempfile
 from pathlib import Path
 
 import pytest

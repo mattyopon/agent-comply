@@ -1,8 +1,7 @@
 """Tests for behavioral anomaly detection."""
 
-import pytest
 
-from agent_comply.anomaly import AlertSeverity, AnomalyDetector, SessionRiskReport
+from agent_comply.anomaly import AlertSeverity, AnomalyDetector
 from agent_comply.ledger import EventLedger
 
 
