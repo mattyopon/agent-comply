@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Yutaro Maeda. All rights reserved.
+# Licensed under the Business Source License 1.1. See LICENSE file for details.
+
 """agent-comply: Compliance and audit trail for AI agent workflows."""
 
 __version__ = "1.0.0"

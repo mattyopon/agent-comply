@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Yutaro Maeda. All rights reserved.
+# Licensed under the Business Source License 1.1. See LICENSE file for details.
+
 """Behavioral anomaly detection for AI agent sessions.
 
 Detects unusual patterns by building per-agent baselines and scoring each

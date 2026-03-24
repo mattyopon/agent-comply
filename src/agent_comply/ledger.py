@@ -1,3 +1,6 @@
+# Copyright (c) 2025-2026 Yutaro Maeda. All rights reserved.
+# Licensed under the Business Source License 1.1. See LICENSE file for details.
+
 """Tamper-proof append-only event ledger with hash chaining and Merkle tree verification.
 
 Each event stores the SHA-256 hash of the previous event, forming a blockchain-like
