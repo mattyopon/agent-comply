@@ -2,6 +2,8 @@
 
 **Tamper-proof compliance auditing for AI agent workflows.**
 
+[![Part of AI Agent Security Suite](https://img.shields.io/badge/Part%20of-AI%20Agent%20Security%20Suite-blueviolet)](https://github.com/mattyopon/ai-agent-security-suite)
+
 Capture every decision your AI agents make, prove nothing was altered, reconstruct the causal chain behind any output, and map it all to the regulatory frameworks that matter.
 
 ---
